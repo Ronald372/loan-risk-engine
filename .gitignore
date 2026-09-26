@@ -1,0 +1,19 @@
+#Virtual environment
+venv/
+.venv/
+
+#Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+
+#Large data files
+data/raw/*
+data/processed/*
+
+#Trained models artifacts (keep repo lightweight)
+models/*
+!.gitkeep
+
+#Environment variables / secrets
+.env
